@@ -24,18 +24,18 @@
 		<developerConnection>scm:git:ssh://github.com:hlvs-apps/ooogg-opus-plugin.git</developerConnection>
 		<url>http://github.com/hlvs-apps/ooogg-opus-plugin/tree/master</url>
 	</scm>
-		<repositories>
+	<repositories>
 		<repository>
 		    <id>jitpack.io</id>
 		    <url>https://jitpack.io</url>
 		</repository>
 	</repositories>
 	<dependencies>
-	<dependency>
-	    <groupId>com.github.allantaborda</groupId>
-	    <artifactId>ooogg</artifactId>
-	    <version>ff4c7a1efc</version>
-	</dependency>
+		<dependency>
+		    <groupId>com.github.allantaborda</groupId>
+		    <artifactId>ooogg</artifactId>
+		    <version>ff4c7a1efc</version>
+		</dependency>
 		<dependency>
 			<groupId>org.concentus</groupId>
 			<artifactId>Concentus</artifactId>
