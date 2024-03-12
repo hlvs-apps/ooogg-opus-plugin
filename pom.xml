@@ -5,7 +5,7 @@
 	<version>0.9.7-SNAPSHOT</version>
 	<name>OOOGG Opus Plugin</name>
 	<description>Plugin for OOOGG that adds support for the Opus codec to it, allowing playback and recording of OGG Opus files (which have the .opus extension) through Java Sound API.</description>
-	<url>https://github.com/allantaborda/ooogg-opus-plugin</url>
+	<url>https://github.com/hlvs-apps/ooogg-opus-plugin</url>
 	<licenses>
 		<license>
 			<name>BSD 3-Clause License</name>
@@ -20,16 +20,22 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:git:git://github.com/allantaborda/ooogg-opus-plugin.git</connection>
-		<developerConnection>scm:git:ssh://github.com:allantaborda/ooogg-opus-plugin.git</developerConnection>
-		<url>http://github.com/allantaborda/ooogg-opus-plugin/tree/master</url>
+		<connection>scm:git:git://github.com/hlvs-apps/ooogg-opus-plugin.git</connection>
+		<developerConnection>scm:git:ssh://github.com:hlvs-apps/ooogg-opus-plugin.git</developerConnection>
+		<url>http://github.com/hlvs-apps/ooogg-opus-plugin/tree/master</url>
 	</scm>
+		<repositories>
+		<repository>
+		    <id>jitpack.io</id>
+		    <url>https://jitpack.io</url>
+		</repository>
+	</repositories>
 	<dependencies>
-		<dependency>
-			<groupId>com.allantaborda</groupId>
-			<artifactId>ooogg</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-		</dependency>
+	<dependency>
+	    <groupId>com.github.allantaborda</groupId>
+	    <artifactId>ooogg</artifactId>
+	    <version>ff4c7a1efc</version>
+	</dependency>
 		<dependency>
 			<groupId>org.concentus</groupId>
 			<artifactId>Concentus</artifactId>
